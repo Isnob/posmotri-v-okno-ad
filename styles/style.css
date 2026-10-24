@@ -139,6 +139,7 @@ ol {
 }
 
 .content__card-link {
+  display: block;
   color: #fff;
   text-decoration: none;
 }
@@ -278,4 +279,28 @@ ol {
   flex-shrink: 0;
   inline-size: 100%;
   min-block-size: 34px;
+}
+
+.content__list-item {
+  padding-inline: 3px;
+}
+
+.content__card-link_current {
+  background-color: #545050;
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
+}
+
+.content__card-link:active {
+  background-color: #545050;
+}
+
+.content__card-link:focus {
+  outline: none;
+}
+
+.content__card-link:focus-visible {
+  outline: 1px solid #fff;
 }
