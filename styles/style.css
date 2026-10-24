@@ -142,6 +142,7 @@ ol {
   display: block;
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .content__video-card-title {
@@ -191,6 +192,7 @@ ol {
   align-items: center;
   gap: 5px;
   inline-size: fit-content;
+  cursor: pointer;
 }
 
 .search-form__textfield {
@@ -250,6 +252,7 @@ ol {
   font-weight: 700;
   font-size: 18px;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .button:hover {
